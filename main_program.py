@@ -27,10 +27,10 @@ def exceute_job():
 
 
 
-schedule.every(1).minutes.do(exceute_job)
+# schedule.every(1).minutes.do(exceute_job)
 
-### Runing the job at every day at 09:00 am 
-# schedule.every().day.at("09:00:00").do(exceute_job)
+## Runing the job at every day at 09:00 am 
+schedule.every().day.at("09:00:00").do(exceute_job)
 
 
 while True:
